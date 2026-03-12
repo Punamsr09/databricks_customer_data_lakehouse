@@ -42,6 +42,7 @@ An automated pipeline has been set up using Databricks Jobs to orchestrate the E
 ## Next Steps
 - Implement advanced data quality checks
 - Integrate real-time data processing
+- Expand data cleaning, transformation, and modeling to all tables from the bronze layer
 - Develop dashboards and machine learning models using gold layer data
 - Optimize performance and scalability
 - **Potential Next Step:** Deploy the pipeline to production and establish CI/CD workflows for continuous integration, testing, and delivery.
