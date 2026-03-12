@@ -37,7 +37,7 @@ The primary goal is to build a robust ETL workflow that ingests raw data, cleans
 - **Work Done:** Aggregate and enrich silver data for reporting and machine learning. Create summary tables and feature sets for downstream applications.
 
 ## Automation Pipeline
-An automated pipeline has been set up using Databricks Jobs to orchestrate the ETL workflow. This automation schedules and manages data ingestion, transformation, and enrichment tasks, ensuring timely and reliable processing. Monitoring and alerting are integrated to track job status and handle failures efficiently.
+An automated pipeline has been set up using Databricks jobs to orchestrate the ETL workflow. This automation schedules and manages data ingestion, transformation, and enrichment tasks, ensuring timely and reliable processing. Monitoring and alerting are integrated to track job status and handle failures efficiently.
 
 ## Next Steps
 - Implement advanced data quality checks
