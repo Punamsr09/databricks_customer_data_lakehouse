@@ -22,15 +22,15 @@ The primary goal is to build a robust ETL workflow that ingests raw data, cleans
 - Building analytics-ready datasets
 - Visualization and reporting
 
-## Data Layers
-
+## Data LakeHouse
+The Data Lakehouse architecture is organized into three storage architectures: Bronze, Silver, and Gold
 ### Bronze Layer
 - **Purpose:** Raw data ingestion
-- **Work Done:** Load unprocessed data from source systems into Delta Lake. Minimal transformations; data is stored as-is for traceability.
+- **Work Done:** Load unprocessed data from source systems into the Bronze layer. No data transformations; data is stored as-is for traceability.
 
 ### Silver Layer
 - **Purpose:** Data cleansing and transformation
-- **Work Done:** Clean, filter, and join bronze data. Apply business rules, remove duplicates, and standardize formats to create structured datasets.
+- **Work Done:** Clean, filter, and join bronze data. Apply business rules, remove duplicates, normalize, and standardize formats to create structured datasets.
 
 ### Gold Layer
 - **Purpose:** Analytics-ready data
